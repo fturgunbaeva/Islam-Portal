@@ -11,13 +11,13 @@ import router from './routes'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 
- 
 Vue.use(VueAxios, axios)
 Vue.use(VueRouter)
 Vue.use(BootstrapVue)
 Vue.config.productionTip = false
 
+
 new Vue({
   render: h => h(App),
-  router: router
+  router: router  
 }).$mount('#app')
